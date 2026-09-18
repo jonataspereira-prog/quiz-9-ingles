@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Educativo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Quiz Educativo</h1>
+
+        <div id="inicio">
+
+            <h2>Digite seu nome</h2>
+            <input type="text" id="txtNome" placeholder="Digite seu nome">
+
+            <br>
+
+            <h2>Escolha seu Avatar</h2>
+
+            <div id="listaEmojis">
+                <span class="emoji selecionado">😎</span>
+                <span class="emoji">😝</span>
+                <span class="emoji">😉</span>
+                <span class="emoji">🤠</span>
+                <span class="emoji">🤡</span>
+                <span class="emoji">💀</span>
+                <span class="emoji">🐶</span>
+                <span class="emoji">🐱</span>
+                <span class="emoji">🐺</span>
+                <span class="emoji">🐼</span>
+                <span class="emoji">🦖</span>
+                <span class="emoji">👻</span>
+                <span class="emoji">🗽</span>
+                <span class="emoji">🐬</span>
+                <span class="emoji">👀</span>
+                <span class="emoji">🍕</span>
+                <span class="emoji">🍥</span>
+                <span class="emoji">🎃</span>
+            </div>
+
+            <button id="btnIniciar">Iniciar Jogo</button>
+
+            <div class="rodape">
+                9º ano - Inglês
+            </div>
+
+        </div>
+
+        <div id="jogo" class="oculto">
+
+            <div class="topoJogo">
+
+        <h1 id="nomeJogador"></h1>
+
+        <h2>Pontuação:
+         <span id="pontos">100</span>
+        </h2>
+
+        <div class="tempo">
+        ⏰ Tempo: <span id="tempo">15</span>s
+        </div>
+
+        </div>
+
+        <div class="barra">
+         <div id="progresso"></div>
+        </div>
+
+        <p id="contadorPergunta"></p>
+
+        <h3 id="pergunta"></h3>
+
+        <div id="alternativas"></div>
+
+        </div>
+
+        <div id="fim" class="oculto">
+
+            <h2 id="mensagemFinal"></h2>
+
+            <button onclick="reiniciar()">
+                Jogar Novamente</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
