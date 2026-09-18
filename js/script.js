@@ -29,7 +29,7 @@ const perguntas = [
 
 {
     pergunta: "O uso do Present Perfect, no primeiro quadrinho da tirinha (em I've decided), pode ser explicado por se tratar de uma ação ",
-    imagem: "../imagens/p1.jpg",
+    imagem: "./imagens/p1.jpg",
     respostas: ["que ocorre uma única vez no presente.", "que se inicia no passado e termina no passado.", "que se inicia no presente e se estende até o futuro.", "ocorrida no passado, mas com um resultado importante no presente."],
     correta: 3,
     tempo: 90
@@ -37,7 +37,7 @@ const perguntas = [
 
 {
     pergunta: "In the first part, “but they're kinda slow”, the word but can be replaced by",
-    imagem: "../imagens/p2.jpg",
+    imagem: "./imagens/p2.jpg",
     respostas: ["moreover", "therefore", "however", "actually"],
     correta: 2,
     tempo: 90
