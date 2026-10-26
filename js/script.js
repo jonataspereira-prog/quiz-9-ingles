@@ -45,7 +45,7 @@ const perguntas = [
 
 {
     pergunta: "In the first part of the comic strip, the word <b>but</b> is used to show a contrast. What is being contrasted?",
-    imagem: "../imagens/p2.jpg",
+    imagem: "./imagens/p2.jpg",
     respostas: ["The fact that hybrid cars are not very fast, yet they are stylish.", "The fact that hybrid cars are good for the environment, but expensive.", "The fact that hybrid cars are expensive, but fast.", "The fact that hybrid cars are fast, but polluting."],
     correta: 0,
     tempo: 90
